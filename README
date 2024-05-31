@@ -1,9 +1,9 @@
 About the Application:
 _______________________
 
-This is a python application that gives number of trains and their pertinent details that are heading towards "Huntington" station on Yellow Line at that time.
+This is a python application that gives number of trains and their pertinent details that are heading towards "Huntington" station on Yellow Line at the time.
 
-This application is a customized to answer only above question. It so happens that on Yellow Line Huntington station is one of the end point. Because of it it's matter of identifying the StationCode and lookup on Running trains on Yellow Line with ServiceType "Normal" and DestinationCode = StationCode.
+This application is customized to answer only above question. It so happens that on Yellow Line Huntington station is one of the end point. Because of it it's matter of identifying the StationCode and lookup on Running trains on Yellow Line with ServiceType "Normal" and DestinationCode = StationCode.
 
 Recommendations to Generalize the application:
 --------------------------------------------
