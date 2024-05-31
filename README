@@ -17,11 +17,24 @@ How to make it generic to work for any given station and given Line?
 - Fetch all the trains of service type “Normal” on the line of interest on Track 1. If circuitid is before the circuitid of the station which means the train is heading towards the station so count it in. If not ignore. 
 - Repeat above logic for Track 2 and using second subset of circuitids.
 
+
+Note:
+----------
+
+This is a Beta version only. Here are few recommendations to make this more robust towards productionizing.
+
+* Parameterize the inputs and take out all the hardcoded values.
+* Make sure that versions of python libs used are stable and secure.
+* Unit tests to be written
+* There are some static data elements for which we do not have to make network calls for every run, so consider to cache and fetch on frequency basis to reduce network load.
+
+
 Building Docker Image with Code:
 --------------------------------
 
 Prerequisite: 
-    * Docker engine running.
+    * Platform is Linux 
+    * Docker engine is installed and running.
 
 Building Docker:
 ----------------
