@@ -22,7 +22,66 @@ Building Docker Image with Code:
 
 Prerequisite: 
     * Docker engine running.
-    
+
+Building Docker:
+----------------
+* checkout code from https://github.com/kumarkaku/intergralads.git
+* bash build-docker.sh
+
+Running Application:
+--------------------
+
+* bash run-docker.sh
+
+You should see an output similar to this:
+
+Total Number of trains heading towards Huntington: 4
+[
+  {
+    "TrainId": "002",
+    "TrainNumber": "348",
+    "CarCount": 6,
+    "DirectionNum": 2,
+    "CircuitId": 2364,
+    "DestinationStationCode": "C15",
+    "LineCode": "YL",
+    "SecondsAtLocation": 35,
+    "ServiceType": "Normal"
+  },
+  {
+    "TrainId": "269",
+    "TrainNumber": "346",
+    "CarCount": 6,
+    "DirectionNum": 2,
+    "CircuitId": 1230,
+    "DestinationStationCode": "C15",
+    "LineCode": "YL",
+    "SecondsAtLocation": 48,
+    "ServiceType": "Normal"
+  },
+  {
+    "TrainId": "316",
+    "TrainNumber": "344",
+    "CarCount": 8,
+    "DirectionNum": 2,
+    "CircuitId": 3512,
+    "DestinationStationCode": "C15",
+    "LineCode": "YL",
+    "SecondsAtLocation": 74,
+    "ServiceType": "Normal"
+  },
+  {
+    "TrainId": "386",
+    "TrainNumber": "342",
+    "CarCount": 6,
+    "DirectionNum": 2,
+    "CircuitId": 1148,
+    "DestinationStationCode": "C15",
+    "LineCode": "YL",
+    "SecondsAtLocation": 36,
+    "ServiceType": "Normal"
+  }
+]   
 
 
 
