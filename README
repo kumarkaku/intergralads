@@ -23,7 +23,7 @@ Note:
 
 This is a Beta version only. Here are few recommendations to make this more robust towards productionizing.
 
-* Parameterize the inputs and take out all the hardcoded values.
+* Parameterize the inputs and take out all the hardcoded values and pass on required inputs like endpoints etc... via config file.
 * Make sure that versions of python libs used are stable and secure.
 * Unit tests to be written
 * There are some static data elements for which we do not have to make network calls for every run, so consider to cache and fetch on frequency basis to reduce network load.
